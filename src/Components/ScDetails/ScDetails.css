@@ -1,0 +1,18 @@
+.sc_item {
+    padding-left: 40px;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(1, 1fr);
+    height: 90px;
+    border-width: 1px;
+    border-color: black;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background-color: rgb(241, 241, 241);
+    align-items: center;
+}
+
+.heart-icon {
+    color: blue;
+}
+

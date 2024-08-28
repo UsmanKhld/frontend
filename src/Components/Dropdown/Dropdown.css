@@ -1,0 +1,42 @@
+.dropdown_container {
+    display: flex;
+    justify-content: space-between;
+    border-width: 1px;
+    border-color: blue;
+    width: 150px;
+    border-radius: 4px;
+    background-color:rgb(201, 232, 242);
+    padding-left: 5px;
+}
+
+.dropdown_menu {
+    width: 150px;
+    height: 100px;
+    border-width: 1px;
+    background-color: rgb(233, 236, 237);
+    border-color: lightblue;
+}
+
+.scrollbar-thin::-webkit-scrollbar {
+    width: 4px; /* Width of the vertical scrollbar */
+    height: 4px; /* Height of the horizontal scrollbar */
+  }
+  
+  .scrollbar-thin::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Background of the scrollbar track */
+  }
+  
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    background: #888; /* Color of the scrollbar thumb */
+    border-radius: 10px; /* Rounded corners of the scrollbar thumb */
+  }
+  
+  .scrollbar-thin::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Color when hovering over the scrollbar thumb */
+  }
+  
+  /* Firefox scrollbar */
+  .scrollbar-thin {
+    scrollbar-width:thin;
+    scrollbar-color: #888 #f1f1f1;
+  }

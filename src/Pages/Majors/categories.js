@@ -1,0 +1,17 @@
+export const categories = [
+    { filter: "Agriculture & Natural Resources"},
+    { filter: "Arts"},
+    { filter: "Biology & Life Science"},
+    { filter: "Business"},
+    { filter: "Communications & Journalism"},
+    { filter: "Computers & Mathematics"},
+    { filter: "Education"},
+    { filter: "Engineering"},
+    { filter: "Industrial Arts & Consumer Services"},
+    { filter: "Interdisciplinary"},
+    { filter: "Humanities & Liberal Arts"},
+    { filter: "Law & Public Policy"},
+    { filter: "Physical Sciences"},
+    { filter: "Psychology & Social Work"},
+    { filter: "Social Science"},
+]

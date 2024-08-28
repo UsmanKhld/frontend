@@ -1,0 +1,82 @@
+.sidenav {
+    width: 5rem;
+    background: rgb(235, 233, 233);
+    position: fixed;
+    height: 100%;
+    transition: width 300ms ease;
+    z-index: 100;
+}
+
+.sidenav-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    height: 100%;
+    margin-left: 1.5em;
+    scrollbar-width:none;
+}
+
+.sidenav-nav:last-child {
+    margin-top: auto;
+} 
+
+.link-text {
+    display: none;
+}
+
+.sidenav-link {
+    display: flex;
+    align-items: center;   
+    position: relative;
+    height: 3rem;
+    text-decoration: none;
+    color: blue;
+    margin-top: 1em;
+}
+
+.sidenav-link .sidenav-icons {
+    margin-right: 0.5em;
+    color: rgba(0, 0, 255, 0.51); 
+}
+
+.sidenav-link .link-text {
+    position: absolute; /* Position text absolutely */
+    left: 5rem;
+    display: none;
+    color: black;
+}
+
+.sidenav:hover {
+    width: 16rem;
+    z-index: 100;
+}
+
+.sidenav:hover .link-text {
+    display:block;
+    text-align: left;
+    
+    
+}
+
+.sidenav-item:hover .link-text {
+    font-weight: bold;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+}
+
+.sidenav-item:hover .sidenav-icons {
+    color: blue;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+}
+
+.sidenav:hover .sidenav-icons {
+    
+}
+
+

@@ -1,0 +1,15 @@
+.section__padding {
+  padding: 4rem 6rem;
+}
+
+.flex__center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex__right {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
