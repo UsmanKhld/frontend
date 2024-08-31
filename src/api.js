@@ -1,13 +1,16 @@
 import axios from "axios";
 import { ACCESS_TOKEN } from "./constants";
 
+console.log(import.meta.env.VITE_REACT_API_URL); // Should log your base URL
+
+
 export const refreshToken = async (refreshToken) => {
     const response = await axios.post(`${import.meta.env.VITE_REACT_API_URL}/token/refresh/`, {refresh: refreshToken});
     return response.data;
 }
 
 const api = axios.create({
-    baseURL: import.meta.env.VITE_REACT_API_URL,
+    baseURL: 'https://ec8xky1urg.execute-api.us-west-2.amazonaws.com',
     headers: {
         "Content-Type": "application/json",
     }
